@@ -1,0 +1,174 @@
+
+
+.imgblock {
+    background-color:indigo;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+       
+}
+
+.titulo{
+    display: flex;
+    
+}
+
+.logo {
+    background-image: url(./assets/images/logo-light.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 2rem;
+    color: white;
+}
+
+.apply{
+    color: white;
+    font-size: 0.6rem;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 3rem;
+}
+
+span{
+    border-bottom: solid;
+    border-color: chartreuse;
+}
+
+a {
+    background-color: chartreuse;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    color: indigo;
+}
+
+/*@media (min-width:768px) {
+  .logoizq{
+    background-image: url(./assets/images/bg-pattern-1.svg);
+    background-position: left ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 10rem;
+    
+  }
+  .logoder{
+    background-image: url(./assets/images/bg-pattern-2.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 10rem;
+  }
+  
+
+} 
+*/
+
+.imagen{
+    background-image: url(./assets/images/image-hero.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 300px;
+    scale: 0.8;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: indigo;
+    margin: 10%;
+    text-align: center;
+}
+
+@media (min-width:768px) {
+  .texto{
+    flex-direction: row;
+  }
+}
+
+.num{
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 0.5px;
+    width: 1.13rem;
+    padding: 1rem;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0rem 1rem;
+}
+
+.texto p{
+    font-weight: 100;
+}
+
+.tio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.imagentio{
+    background-image: url(./assets/images/image-founder.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 300px;
+    scale: 0.8;
+    margin-bottom: 0rem;
+}
+
+@media (min-width:768px) {
+    .imagentio{
+        position: left;
+    }
+}
+
+.textotio{
+    background-color: indigo;
+    color: white;
+    text-align: center;
+    padding-bottom: 3rem;
+        
+}
+
+.textotio p{
+    margin-bottom: 3rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-weight: 100;
+}
+
+.logodark{
+    background-image: url(./assets/images/logo-dark.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    height: 2.5rem;
+    margin-top: 5rem;
+    
+}
+
+.social img{
+    margin: 5rem 1.5rem;
+}
+
+
+
+
